@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+  <parameter name="browser" value="chrome"/>
+  <test thread-count="5" verbose="0" name="Test(failed)">
+    <classes>
+      <class name="tests.AddProductToWishlistTest">
+        <methods>
+          <include name="startDriver"/>
+          <include name="userAddProductToWishlist"/>
+          <include name="closeDriver"/>
+          <include name="userSearchForProduct"/>
+          <include name="userRemoveProductToWishlist"/>
+          <include name="screenshotOnFailure"/>
+        </methods>
+      </class> <!-- tests.AddProductToWishlistTest -->
+      <class name="tests.AddProductToComparelistTest">
+        <methods>
+          <include name="usercClearCompareList"/>
+          <include name="startDriver"/>
+          <include name="userAddProductsToCompareList"/>
+          <include name="closeDriver"/>
+          <include name="screenshotOnFailure"/>
+        </methods>
+      </class> <!-- tests.AddProductToComparelistTest -->
+      <class name="tests.UserRegistrationTest">
+        <methods>
+          <include name="userloginSuccessfully"/>
+          <include name="startDriver"/>
+          <include name="userLogoutSuccessfully"/>
+          <include name="closeDriver"/>
+          <include name="userRegisterSuccessfully"/>
+          <include name="screenshotOnFailure"/>
+        </methods>
+      </class> <!-- tests.UserRegistrationTest -->
+      <class name="tests.AddReviewTest">
+        <methods>
+          <include name="startDriver"/>
+          <include name="userSearchForProduct"/>
+          <include name="userRegisterSuccessfully"/>
+          <include name="closeDriver"/>
+          <include name="userAddReview"/>
+          <include name="screenshotOnFailure"/>
+        </methods>
+      </class> <!-- tests.AddReviewTest -->
+      <class name="tests.SendEmailToFriendTest">
+        <methods>
+          <include name="startDriver"/>
+          <include name="userEmailProductToFriend"/>
+          <include name="closeDriver"/>
+          <include name="screenshotOnFailure"/>
+          <include name="userRegisterSuccessfully"/>
+          <include name="userSearchForProduct"/>
+        </methods>
+      </class> <!-- tests.SendEmailToFriendTest -->
+      <class name="tests.GuestUserCheckout">
+        <methods>
+          <include name="startDriver"/>
+          <include name="closeDriver"/>
+          <include name="userAddItemToCart"/>
+          <include name="screenshotOnFailure"/>
+          <include name="userCheckout"/>
+          <include name="userSearchForProduct"/>
+        </methods>
+      </class> <!-- tests.GuestUserCheckout -->
+      <class name="tests.ChangeCurrencyTest">
+        <methods>
+          <include name="startDriver"/>
+          <include name="closeDriver"/>
+          <include name="screenshotOnFailure"/>
+          <include name="userSearchForProduct"/>
+          <include name="userChangeCurrency"/>
+        </methods>
+      </class> <!-- tests.ChangeCurrencyTest -->
+      <class name="tests.MyAccountTest">
+        <methods>
+          <include name="startDriver"/>
+          <include name="userLogoutSuccessfully"/>
+          <include name="userRegisterSuccessfully"/>
+          <include name="closeDriver"/>
+          <include name="userChangePassword"/>
+          <include name="screenshotOnFailure"/>
+          <include name="userloginSuccessfully"/>
+        </methods>
+      </class> <!-- tests.MyAccountTest -->
+      <class name="tests.AddToCartTest">
+        <methods>
+          <include name="userAddItemToCart"/>
+          <include name="startDriver"/>
+          <include name="userClearCart"/>
+          <include name="userSearchForProduct"/>
+          <include name="closeDriver"/>
+          <include name="screenshotOnFailure"/>
+        </methods>
+      </class> <!-- tests.AddToCartTest -->
+      <class name="tests.RegisterdUserCheckout">
+        <methods>
+          <include name="userSearchForProduct"/>
+          <include name="startDriver"/>
+          <include name="userAddItemToCart"/>
+          <include name="userCheckout"/>
+          <include name="closeDriver"/>
+          <include name="screenshotOnFailure"/>
+          <include name="userRegisterSuccessfully"/>
+        </methods>
+      </class> <!-- tests.RegisterdUserCheckout -->
+      <class name="tests.ContactUsTest">
+        <methods>
+          <include name="startDriver"/>
+          <include name="closeDriver"/>
+          <include name="screenshotOnFailure"/>
+          <include name="userUseContactUs"/>
+        </methods>
+      </class> <!-- tests.ContactUsTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

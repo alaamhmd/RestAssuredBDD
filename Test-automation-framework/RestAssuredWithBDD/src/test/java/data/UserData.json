@@ -1,0 +1,9 @@
+[
+{
+"baseURL" :"https://www.colourlovers.com",
+"path" : "/api/patterns",
+"agent" : "User-Agent:",
+"systemInfo" : " (Windows NT 10.0; Win64; x64)  Chrome/97.0.4692.99",
+"attributeName" :"patterns.pattern.numViews"
+}
+]
