@@ -9,7 +9,7 @@ import io.restassured.response.Response;
 public class PageBase {
 	Response response, s;
 	protected String path;
-	public List<String> attributeValue ;
+	public List<String> attributeValue;
 
 	public void setBaseURL(String url) {
 		RestAssured.baseURI=(url);
