@@ -8,9 +8,8 @@ public class GetAttributeValue  {
 	PageBase pageBase;
 	
 	  public List<String> getSpecifecAttributeValue(String attributeName, ResponseBodyExtractionOptions response) {
+		  
 	  pageBase = new PageBase();
-	  
-	 
 	  return attributeValue = response.xmlPath().getList(attributeName);
 	  
 	   }
