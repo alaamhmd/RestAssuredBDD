@@ -12,4 +12,5 @@ public class GetAttributeValue  {
 		pageBase = new PageBase();
 		return attributeValue = response.xmlPath().getList(attributeName);
 	}
+	
 }
